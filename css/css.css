@@ -1,0 +1,22 @@
+a{
+	color: White;
+	text-decoration: none
+}
+banner{
+  
+  background: blue
+
+}
+body {
+    background-color:  	#0080ff ;
+}
+p.inline {
+    display: inline;
+}
+h1 {
+    text-align: center;
+}
+
+img.middle-image{
+	margin: auto;
+}
