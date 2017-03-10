@@ -15,8 +15,57 @@ p.inline {
 }
 h1 {
     text-align: center;
+
 }
 
 img.middle-image{
 	margin: auto;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.background{
+	/*height: 100vh;*/
+/*    width: 100vw;*/
+}
+
+.background-image{
+	-webkit-filter: blur(2px); 
+    -moz-filter: blur(2px); 
+    filter: blur(2px); 
+    height: 100%;
+    width: calc(100% - 17px);
+    position: absolute;
+    top: 0;
+    z-index: -10;
+}
+
+body{
+	/*background-image: url("../images/blackboard-image.jpg");*/
+	background-size: cover;
+	background: #222;
+}
+
+nav ul{
+	display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+	display: inline;
+	padding: 15px;
+	margin: 15px;
+	background-color: rgba(100,100,250, 0.75);
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.marquee-text p{
+    color: rgb(250, 100, 120);
+    padding: 10px;
+    text-shadow: 2px 2px #111;
+    background-color: rgba(20, 220, 153, 0.75);
 }
