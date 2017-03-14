@@ -51,6 +51,9 @@ body{
 nav ul{
 	display: flex;
     justify-content: center;
+	border-radius:40px; 
+	border: 5px solid white;
+	background: rgba(250,250,250,0.6)
 }
 
 nav ul li{
@@ -67,5 +70,7 @@ nav ul li{
     color: rgb(250, 100, 120);
     padding: 10px;
     text-shadow: 2px 2px #111;
-    background-color: rgba(20, 220, 153, 0.75);
+    background-color: rgba(10, 250, 250, 0.75);
 }
+
+
